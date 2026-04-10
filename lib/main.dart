@@ -1,0 +1,53 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:provider/provider.dart';
+import 'config/theme.dart';
+import 'models/quiz_model.dart';
+import 'providers/user_provider.dart';
+import 'providers/journey_provider.dart';
+import 'providers/feed_provider.dart';
+import 'providers/leaderboard_provider.dart';
+import 'screens/splash_screen.dart';
+
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => QuizProvider()),
+        ChangeNotifierProvider(create: (_) => UserProvider()),
+        ChangeNotifierProvider(create: (_) => JourneyProvider()),
+        ChangeNotifierProvider(create: (_) => FeedProvider()),
+        ChangeNotifierProvider(create: (_) => LeaderboardProvider()),
+      ],
+      child: const RehlaApp(),
+    ),
+  );
+}
+
+class RehlaApp extends StatelessWidget {
+  const RehlaApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Rihla',
+      debugShowCheckedModeBanner: false,
+      theme: AppTheme.lightTheme, // Currently points to darkTheme in our config
+      darkTheme: AppTheme.darkTheme,
+      themeMode: ThemeMode.dark, // Standardize on Dark Mode for the premium look
+      localizationsDelegates: const [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: const [
+        Locale('en'),
+        Locale('ar'),
+        Locale('fr'),
+      ],
+      locale: const Locale('en'), // English first as per Stitch design
+      home: const SplashScreen(),
+    );
+  }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIHLA | Project Mediterranean Horizon - Engineering Portal</title>
+    <style>
+        :root {
+            --nvidia-green: #76b900;
+            --bg-deep: #000000;
+            --bg-card: #1a1a1a;
+            --txt-main: #ffffff;
+            --txt-dim: #999999;
+            --accent: #4DD0E1;
+        }
+        body {
+            background: var(--bg-deep);
+            color: var(--txt-main);
+            font-family: 'Inter', -apple-system, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .header {
+            border-bottom: 2px solid var(--nvidia-green);
+            padding: 40px 10%;
+            background: linear-gradient(180deg, #111 0%, #000 100%);
+        }
+        .container {
+            padding: 60px 10%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .tag {
+            background: var(--nvidia-green);
+            color: black;
+            padding: 4px 12px;
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            border-radius: 4px;
+        }
+        h1 { font-size: 48px; margin: 20px 0; letter-spacing: -1px; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        .card {
+            background: var(--bg-card);
+            border-left: 4px solid var(--nvidia-green);
+            padding: 30px;
+            border-radius: 0 12px 12px 0;
+            transition: transform 0.3s ease;
+        }
+        .card:hover { transform: translateY(-10px); background: #222; }
+        .card h3 { color: var(--nvidia-green); margin-top: 0; }
+        .meta { font-family: monospace; color: var(--txt-dim); font-size: 13px; }
+        footer { border-top: 1px solid #333; padding: 40px 10%; font-size: 12px; color: var(--txt-dim); }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="tag">Internal Engineering Node</span>
+        <h1>Project: Mediterranean Horizon</h1>
+        <p class="meta">> Rihla System Architecture | Build 3.4.0_REV12</p>
+    </div>
+
+    <div class="container">
+        <h2>Engineering Core Documentation</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>System Architecture</h3>
+                <p>Reactive state management using Provider pattern and high-frequency location pipelines.</p>
+                <p class="meta">REF: /lib/docs/SYSTEM_ARCHITECTURE.md</p>
+            </div>
+            <div class="card">
+                <h3>AI Governance</h3>
+                <p>LLM guardrails for Saharan and Coastal trajectories. Llama-3 integration protocols.</p>
+                <p class="meta">REF: /lib/docs/AI_GOVERNANCE.md</p>
+            </div>
+            <div class="card">
+                <h3>UI Engine</h3>
+                <p>Adaptive dark-first design language specifically tuned for high-luminance environments.</p>
+                <p class="meta">REF: /lib/config/theme.dart</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 RIHLA PROJECT | CONFIDENTIAL | NVIDIA-GRADE ENGINEERING STACK
+    </footer>
+</body>
+</html>

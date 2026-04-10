@@ -1,0 +1,114 @@
+[
+  {
+    "id": "exp_1",
+    "name": "المستكشف المبتدئ",
+    "description": "زر أول مكان",
+    "xpReward": 50,
+    "badgeEmoji": "🧭",
+    "category": "exploration"
+  },
+  {
+    "id": "exp_2",
+    "name": "رحّالة",
+    "description": "زر 5 أماكن",
+    "xpReward": 100,
+    "badgeEmoji": "🎒",
+    "category": "exploration"
+  },
+  {
+    "id": "exp_3",
+    "name": "ابن الجبال",
+    "description": "تسلق 500م ارتفاع",
+    "xpReward": 150,
+    "badgeEmoji": "⛰️",
+    "category": "exploration"
+  },
+  {
+    "id": "exp_4",
+    "name": "فارس الصحراء",
+    "description": "زر موقع في الصحراء",
+    "xpReward": 200,
+    "badgeEmoji": "🐪",
+    "category": "exploration"
+  },
+  {
+    "id": "exp_5",
+    "name": "غواص الشمال",
+    "description": "زر موقع ساحلي",
+    "xpReward": 150,
+    "badgeEmoji": "🌊",
+    "category": "exploration"
+  },
+  {
+    "id": "exp_6",
+    "name": "مستكشف الأطلس",
+    "description": "زر 3 مواقع في الجبال",
+    "xpReward": 300,
+    "badgeEmoji": "🏔️",
+    "category": "exploration"
+  },
+  {
+    "id": "comp_1",
+    "name": "الأسرع",
+    "description": "أنهِ مسار في وقت قياسي",
+    "xpReward": 200,
+    "badgeEmoji": "⚡",
+    "category": "competitive"
+  },
+  {
+    "id": "comp_2",
+    "name": "الأول دائماً",
+    "description": "كن أول من يزور مكانين",
+    "xpReward": 500,
+    "badgeEmoji": "👑",
+    "category": "competitive"
+  },
+  {
+    "id": "comp_3",
+    "name": "ملك الأسبوع",
+    "description": "تصدر Leaderboard أسبوعاً",
+    "xpReward": 300,
+    "badgeEmoji": "🏆",
+    "category": "competitive"
+  },
+  {
+    "id": "comp_4",
+    "name": "لا يُهزم",
+    "description": "تصدر Leaderboard شهراً",
+    "xpReward": 1000,
+    "badgeEmoji": "🔥",
+    "category": "competitive"
+  },
+  {
+    "id": "soc_1",
+    "name": "مشارك",
+    "description": "انشر أول صورة",
+    "xpReward": 50,
+    "badgeEmoji": "📸",
+    "category": "social"
+  },
+  {
+    "id": "soc_2",
+    "name": "ملهِم",
+    "description": "احصل على 50 إعجاب",
+    "xpReward": 100,
+    "badgeEmoji": "❤️",
+    "category": "social"
+  },
+  {
+    "id": "soc_3",
+    "name": "صانع محتوى",
+    "description": "انشر 10 صور",
+    "xpReward": 200,
+    "badgeEmoji": "🎬",
+    "category": "social"
+  },
+  {
+    "id": "soc_4",
+    "name": "مؤثر",
+    "description": "يتابعك 100 مستخدم",
+    "xpReward": 500,
+    "badgeEmoji": "⭐",
+    "category": "social"
+  }
+]

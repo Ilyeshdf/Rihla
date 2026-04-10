@@ -1,0 +1,42 @@
+{
+  "wilayas": [
+    {
+      "id": "alger",
+      "name": "الجزائر العاصمة",
+      "hotels": [
+        {"id": "h1", "name": "فندق الأوراسي", "price_per_night": 8500, "rating": 4.2, "amenities": ["واي فاي", "مسبح", "موقف سيارات"], "image": "placeholder"},
+        {"id": "h2", "name": "فندق الشيراتون", "price_per_night": 14000, "rating": 4.7, "amenities": ["واي فاي", "مطعم", "صالة رياضة"], "image": "placeholder"},
+        {"id": "h3", "name": "فندق المزة", "price_per_night": 5500, "rating": 3.9, "amenities": ["واي فاي", "مطعم"], "image": "placeholder"}
+      ],
+      "restaurants": [
+        {"id": "r1", "name": "مطعم دار الجلد", "cuisine": "جزائري تقليدي", "avg_price": 1200, "hours": "12:00 - 23:00"},
+        {"id": "r2", "name": "مطعم البراسري", "cuisine": "بحري", "avg_price": 1800, "hours": "11:00 - 22:00"},
+        {"id": "r3", "name": "مطعم لو تانتونفيل", "cuisine": "فرنسي", "avg_price": 2200, "hours": "12:00 - 22:30"}
+      ],
+      "sites": [
+        {"id": "s1", "name": "القصبة", "category": "تراث", "entry_price": 200, "hours": "08:00 - 17:00", "tip": "اذهب قبل الساعة 9 صباحاً لتجنب الازدحام"},
+        {"id": "s2", "name": "متحف الباردو", "category": "تاريخ", "entry_price": 100, "hours": "09:00 - 16:00", "tip": "يحتوي على مجموعة رائعة من الفسيفساء"},
+        {"id": "s3", "name": "حديقة التجارب", "category": "طبيعة", "entry_price": 50, "hours": "08:00 - 18:00", "tip": "أفضل وقت للزيارة في الصباح الباكر"}
+      ]
+    },
+    {
+      "id": "bejaia",
+      "name": "بجاية",
+      "hotels": [
+        {"id": "h4", "name": "فندق يمة", "price_per_night": 6000, "rating": 4.0, "amenities": ["واي فاي", "إطلالة بحرية", "مطعم"], "image": "placeholder"},
+        {"id": "h5", "name": "فندق لي حماديت", "price_per_night": 9500, "rating": 4.4, "amenities": ["واي فاي", "مسبح", "شاطئ خاص"], "image": "placeholder"},
+        {"id": "h6", "name": "فندق الشمس", "price_per_night": 4500, "rating": 3.7, "amenities": ["واي فاي", "موقف سيارات"], "image": "placeholder"}
+      ],
+      "restaurants": [
+        {"id": "r4", "name": "مطعم القرصان", "cuisine": "بحري", "avg_price": 1500, "hours": "11:00 - 23:00"},
+        {"id": "r5", "name": "مطعم دار البحر", "cuisine": "جزائري تقليدي", "avg_price": 1000, "hours": "12:00 - 22:00"},
+        {"id": "r6", "name": "مطعم النجمة", "cuisine": "عالمي", "avg_price": 1800, "hours": "12:00 - 23:00"}
+      ],
+      "sites": [
+        {"id": "s4", "name": "قلعة القصبة", "category": "تاريخ", "entry_price": 150, "hours": "08:00 - 17:00", "tip": "منظر بانورامي رائع للمدينة"},
+        {"id": "s5", "name": "شاطئ تيزي", "category": "شاطئ", "entry_price": 0, "hours": "مفتوح دائماً", "tip": "أحضر معدات السباحة الخاصة بك"},
+        {"id": "s6", "name": "غار الفراشات", "category": "طبيعة", "entry_price": 100, "hours": "09:00 - 16:00", "tip": "ارتدي أحذية مريحة للمشي"}
+      ]
+    }
+  ]
+}

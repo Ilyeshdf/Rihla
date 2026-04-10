@@ -1,0 +1,12 @@
+[
+  {"rank":1, "username":"يزيد_المغامر", "wilaya":"بجاية", "xp":2450, "places":18, "badge":"أسطورة"},
+  {"rank":2, "username":"سارة_الجبال", "wilaya":"تيزي وزو", "xp":2100, "places":15, "badge":"أسطورة"},
+  {"rank":3, "username":"رضا_الصحراء", "wilaya":"تمنراست", "xp":1800, "places":12, "badge":"خبير"},
+  {"rank":4, "username":"أمين_الرحالة", "wilaya":"الجزائر", "xp":1550, "places":10, "badge":"خبير"},
+  {"rank":5, "username":"ليلى_اكتشاف", "wilaya":"قسنطينة", "xp":1200, "places":8, "badge":"مغامر"},
+  {"rank":6, "username":"طارق_طبيعة", "wilaya":"البليدة", "xp":980, "places":7, "badge":"مغامر"},
+  {"rank":7, "username":"سمير_خطوات", "wilaya":"وهران", "xp":850, "places":6, "badge":"متسلق"},
+  {"rank":8, "username":"نور_جولات", "wilaya":"عنابة", "xp":600, "places":5, "badge":"متسلق"},
+  {"rank":9, "username":"فارس_البحر", "wilaya":"سكيكدة", "xp":450, "places":3, "badge":"رحّالة"},
+  {"rank":10, "username":"زينب_مسار", "wilaya":"تيبازة", "xp":200, "places":1, "badge":"رحّالة"}
+]
